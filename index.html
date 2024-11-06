@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JavaJam Coffee House</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <meta name="description"
+        content="JavaJam has some of the best coffee and tea around! We offer bakery items, pastries, music, poetry, an open mic night, and merch!">
+    <link rel="stylesheet" href="static/javajam.css">
+    <link rel="icon" type="image/x-icon" href="static/favicon.ico">
+</head>
+<div id="wrapper">
+    <header>
+        <h1>JavaJam Coffee House</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="gear.html">Gear</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="heroroad"></div>
+        <h2>Follow the Winding Road to JavaJam</h2>
+        <p>We&#39;re a little out of the way, but take a drive down Rainbow Road
+            to JavaJam today! Indulge in our locally roasted free-trade coffee and home-made
+            pastries. You&#39;ll feel right at jome at JavaJam!</p>
+        <h3>JavaJam Coffee House features:</h3>
+        <ul>
+            <li>Specialty Coffee and Tea</li>
+            <li>Bagels, Muffins, and Gluten-free Pastries</li>
+            <li>Organic Salads</li>
+            <li>Music and Poetry Readings</li>
+            <li>Open Mic Night</li>
+        </ul>
+        <div>
+            1231 Maplewood Lane<br>
+            Silverbrook, SC 29401<br>
+            <a id="mobile" href="tel:888-555-5555">888-555-5555</a>
+            <span id="desktop">888-555-5555</span><br>
+            <br>
+        </div>
+    </main>
+    <footer id="footer">
+        <script>
+            const year = new Date().getFullYear();
+            document.getElementById('footer').innerHTML = `Copyright &copy; ${year} JavaJam Coffee House`;
+        </script>
+    </footer>
+</div>
+
+</html>

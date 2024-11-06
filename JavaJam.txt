@@ -1,0 +1,11 @@
+1. This would be a hierarchical	design with a Home page and currently 2 other important pages. Hierarchical is the best design for a site like this because viewers/customers need to be able to go anywhere they like when they intentionally plan to visit a certain section. A Linear organization would imply landing on the Home page, then only being allowed to progress to the Menu page, then on to Music, then on to Jobs, and never being allowed to backtrack to a previous page. Lastly, a Random organization just doesn't make sense for needing to view items on a menu or upcoming music events.
+2. 
+Good:
+- The site includes consistency in the company name, logo, background they're in across each page. It has a well established theme in terms of the aforementioned, but also color scheme and subheadings.
+- It features a lot of simplicity in every part. I'd consider this mostly plain text content so it's easy to read and catch on to quickly. It's nicely laid out and exhibits good use of proximity with the subheadings, paragraphs, and unordered lists.
+- The fonts and font weights are used sparely well. There isn't any text that is too big such that it's annoying, or too small such that it's hard to read. The footer is a slight exception as it only contains a copyright.
+
+Bad:
+- I love coffee and this site is not attractive. There's also limited, unattractive coffee for sale. It's unappealing.
+- I'm picky and have high expectations for quality so, for me, this site lacks quality: animated objects like a logo, showing new images as the page scrolls, something like a background image that scrolls slower than the foreground information.
+- The colors are nice and relatable to coffee (being shades/tints of brown) but having no other neutrals, like white or gray, makes it seem bland.

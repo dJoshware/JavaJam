@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JavaJam Coffee House Music</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <meta name="description" content="Experience the lovely folk-style music of JavaJam!">
+    <link rel="stylesheet" href="static/javajam.css">
+    <link rel="icon" type="image/x-icon" href="static/favicon.ico">
+</head>
+<div id="wrapper">
+    <header>
+        <h1>JavaJam Coffee House</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="gear.html">Gear</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="heroguitar">
+        </div>
+        <h2>Music at JavaJam</h2>
+        <p>The first Friday night each month at JavaJam is a special night.
+            Join us from 8 pm to 11 pm for some music you won&#39;t want to miss!</p>
+        <h4>January</h4>
+        <div class="details">
+            <a href="melanie.jpg"><img class="floatleft" src="melaniethumb.jpg" height="75" width="75"
+                    alt="Melanie"></a>
+            <p>Melanie Morris entertains with her melodic folk style.</p>
+            <audio controls="controls">
+                <source src="melanie.mp3" type="audio/mpeg">
+                <source src="melanie.ogg" type="audio/ogg">
+                <a href="melanie.mp3">Download the Song</a> (MP3)
+            </audio>
+        </div>
+        <h4>February</h4>
+        <div class="details">
+            <a href="greg.jpg"><img class="floatleft" src="gregthumb.jpg" height="75" width="75" alt="Greg"></a>
+            <p>Tahoe Greg is back from his tour. New songs. New stories.</p>
+            <audio controls="controls">
+                <source src="greg.mp3" type="audio/mpeg">
+                <source src="greg.ogg" type="audio/ogg">
+                <a href="greg.mp3">Download the Song</a> (MP3)
+            </audio>
+        </div>
+    </main>
+    <footer id="footer">
+        <script>
+            const year = new Date().getFullYear();
+            document.getElementById('footer').innerHTML = `Copyright &copy; ${year} JavaJam Coffee House`;
+        </script>
+    </footer>
+</div>
+
+</html>
